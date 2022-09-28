@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: bisque;
+}
+
+#logo{
+    height: 75px;
+}
+
+
+#pageHeader{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #c9cced;
+    margin-bottom: 20px;
+    min-height: 100px;
+}
+
+#pageHeader > h1{
+justify-self: center;
+align-self: center;
+font-size: 3.5rem;
+color: #0f2878;
+text-shadow: 3px 3px #94B0DA;
+}
+
+#pageHeader > nav{
+    align-self: center;
+    justify-self: end;
+    
+}
+nav a{
+    border: 5px #94B0DA solid;
+    border-radius: 25%;
+    color: darkolivegreen;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 0.5rem;
+    margin: 10px;
+}
+
+
+#mainSection{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    row-gap: 5vw;
+    column-gap: 5vw;
+    row-gap: 5vh;
+}
+
+Main > section{
+    display: grid;
+    gri
+
+}
+section > img {
+    row-gap: 5vw;
+    max-width: 100%;
+}
+section > .post{
+    max-height: 50vh;
+}
+#footer{
+    margin-top: 20vh;
+}
+
+footer > nav{
+    display: grid;
+    grid-template-columns: repeat(auto-fit minmax());
+
+}
